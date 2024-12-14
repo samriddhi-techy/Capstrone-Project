@@ -1,0 +1,198 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Sarpanch;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: Rajdhani;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 672px;
+    gap: 0px;
+    border-radius: 56px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .project {
+    text-align: center;
+  }
+  
+  .project img {
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+  
+  .project h3 {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .project p {
+    font-family: Rajdhani;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .about {
+    width: Fill (1,344px)px;
+    height: Hug (452px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+    /* padding: 2rem;
+    text-align: center;
+    background-color: #111;
+    font-family: Rajdhani;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; */
+
+    
+
+  .text-paragraph {
+    font-family: Rajdhani;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #aaa;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cont{
+    width: 900px;
+    height: 260px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rajdhani;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+  }
+.spac{
+    width: Fill (1,344px)px;
+height: Hug (452px)px;
+padding: 96px 0px 96px 0px;
+gap: 0px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+justify-content: center;
+margin-left: 23%;
+}
