@@ -1,0 +1,258 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Sarpanch;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .hero h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 2rem;
+    font-family: Rajdhani;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 672px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+  }
+
+.hero-image img{
+  width: 100%;
+  border-radius: 100px;
+}
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50px;
+  }
+  
+  .project {
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 30px;
+  }
+  .project-contents{
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  .project img {
+    width: 100%;
+    margin: 0;
+    border-radius: 30px;
+
+  }
+  
+  .project h3 {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    gap: 0px;
+    margin: 0;
+  }
+  
+  .project p {
+    font-family: Rajdhani;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    gap: 0px;
+    margin: 0;
+  }
+  
+  .about {
+    width: Fill (1,344px)px;
+    height: Hug (452px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+  }
+
+  .text-paragraph {
+    display: flex;
+    justify-content: right;
+    font-family: Rajdhani;
+    width:100%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .text-paragraph p{
+    width: 50%;
+    text-align: left;
+
+
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #000;
+    color: #aaa;
+
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cont{
+    width: 900px;
+    height: 260px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rajdhani;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .spac{
+    width: Fill (1,344px)px;
+    height: Hug (452px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  .project:hover{
+    background-color:rgb(48, 46, 46);
+  }
+  .project-contents:hover{
+    transform: scale(0.9);
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-paragraph {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .cont {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+  .header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .nav a {
+      margin: 0.5rem 0;
+  }
+
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .cont {
+      font-size: 24px;
+  }
+
+  .projects {
+      grid-template-columns: 1fr;
+  }
+
+  .text-paragraph {
+      font-size: 16px;
+  }
+}
+
