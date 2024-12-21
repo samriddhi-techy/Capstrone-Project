@@ -192,8 +192,74 @@ body {
   .project-contents:hover{
     transform: scale(0.9);
   }
+  @media only screen and (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
 
-  @media (max-width: 768px) {
+    .nav a  {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .header{
+        padding: 8px;
+        font-size: 14px;
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-image img {
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .project-contents {
+        width: 100%; 
+        margin-bottom: 15px;
+    }
+
+    .project-contents img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .about.text.cont {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .text-paragraph{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+
+    .footer  a{
+        font-size: 16px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
+
+  /* @media (max-width: 768px) {
     .hero h1 {
         font-size: 3rem;
         line-height: 3.5rem;
@@ -255,4 +321,4 @@ body {
       font-size: 16px;
   }
 }
-
+ */
